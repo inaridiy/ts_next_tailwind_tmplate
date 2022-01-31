@@ -1,9 +1,5 @@
-import type { NextPage } from 'next';
-
-const Home: NextPage = () => {
-  return (
-    <div className='text-6xl font-bold'>Hello Next,Typescript,Eslint,Prettier and TailwindCSS</div>
-  );
+const Home = (): JSX.Element => {
+  return <div>Hello Next.js!</div>;
 };
 
 export default Home;
